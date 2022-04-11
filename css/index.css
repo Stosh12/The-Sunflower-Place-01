@@ -964,6 +964,10 @@ h1 {
     width: 72%;
     margin: -3px auto 15px auto;
 }
+h1.home {
+    margin: -20px auto 15px auto;
+    padding: 0px 0%;
+}
 h2 {
     line-height: 40px;
     font-size: 24px;
@@ -1261,7 +1265,7 @@ footer ul.social li {
 #section-02 {
     background-image: url("../images/bonnie-kittle-5US9_Gep0qY-unsplash.jpg");
     background-size: cover;
-    height: 1250px;
+    height: 1225px;
 }
 footer {
     position: relative;
