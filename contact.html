@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/nam3yzl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>The Sunflower Place Website</title>
+</head>
+<body>
+
+    <div id="master-container">
+   
+     <!-- The header below is composed of the main navigation for mobile and desktop inclusive of The Sunflower Place's home button (orange square with sunflower image), The Sunflower Place's name/text and other menu list items for desktop. -->
+        
+    <header>
+
+     <!-- Nav includes checbox method for hamburger menu display commented out incase needed later. Mobile and Tablet nav works with JavaScript. -->
+
+    <nav>
+        <!-- <input type="checkbox" id="checkbox" />
+        <label for ="checkbox" id="icon"> -->
+            <div id="icon"><img src="images/tsp-icon-home-button-300px-01-01.png" alt="Sunflower Mobile Home" height="50" width="50" /></div>
+        <!-- </label> -->
+            <p><a href="index.html">The Sunflower Place</a></p>
+
+    <!-- Menu list items for mobile (popup menu) and desktop (main horizontal nav.) - the "Home" button shouldn't display on the main horizontal nav. when it's present in destop views of 1230px. and greater; in short, the home button is only for mobile -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="visit-our-fields.html">Visit Our Fields</a></li>
+            <li><a href="what-people-are-saying.html">What People Are Saying</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Main Contact page opening photo -->
+    <div id="main-photo">
+        <img src="images/pascal-debrunner-oxN9M1CRU-0-unsplash-contact-header.jpg" alt="View down a farm road with a large sunflower field on the left and a corn field on the right" />
+    </div>
+
+    <!-- Section 1 of 1 - Introductory section about being welome to contact the The Sunflower Place farm -->
+    <section id="section-01" class="fields">
+        <p class="section-title-minor">Please Feel Free To</p>
+        <h1>Contact and Visit Us!</h1> 
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+        <br/>
+        <br/>
+        
+        <article class="form-intro">
+        <h2 class="contact-form-heading">Would you like for us to contact you?</h2>
+        <!-- <p class="paragraph"> -->
+        <p>If you would like us to reach out to you in regard to special events and offerings, please fill out the contact form below. Also, if you would like to contact us in any way with suggestions or comments, please don't hesitate to mention them to us. All corespondece will be conducted by email.</p>
+        </article>
+    
+        <!-- Contact Form -->
+
+        <form method="post" action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+			<fieldset class="forminput">
+			<label for="first-name">First Name *</label>
+            <input type="text" name="first-name" id="first-name" size="80" required/>
+            <label for="last-name">Last Name *</label>
+            <input type="text" name="last-name" id="last-name" size="80" required/>
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" placeholder="000-000-0000 Suggested Format" size="80"/>
+            <label for="email-address">Email Address *</label>
+            <input type="email" name="email-address" id="email-address" size="80" required/>
+            <label for="comments">Comments</label>
+            <textarea name="Comments" id="comments" cols="78" rows="5"></textarea>
+           
+            <p class="required">* Indicates required fields.</p>
+            
+            <div class="submit">
+            <input type="submit" name="submit" value="Submit">
+			<input type="reset" name="reset" value="Reset">
+            </div>
+            </fieldset>
+            <br/>
+		</form>
+    
+        <!-- Address, Phone and Email contact info -->
+
+        <address class="middle-address">
+            <ul class="contact-address">
+                <li class="strong">Address</li>
+                <li>The Sunflower Place</li>
+                <li>1234 Rainbow Sun Lane</li>
+                <li>Midlothian, VA 23236</li>
+            </ul>
+    
+            <ul class="phone">
+            <li class="strong">Phone</li>
+            <li>804-272-5195</li>
+            </ul>
+    
+            <ul class="email">
+            <li class="strong">Email</li>
+            <li>info@thesunflowerplace</li>
+            </ul>
+        </address>
+    
+    
+        <div id="map-inset"><img src="images/map-inset-01.jpg" alt="This Google Map to locate The Sunflower Place"></div>
+
+    
+    </section>
+   
+
+
+    <div id="middle-photo-fields"><img src="images/carles-rabada-AvOUmlZZMyY-unsplash-contact-joy.jpg" alt="Girl raising her arms and hands above her head in joy in the middle of a sunflower field." /></div>
+   
+
+    <!-- Footer - This footer contains The Sunflower Place name or logo text, contact info, social links, quick links and copyright info that should reflow responsively based on device width. -->
+    <footer>
+    <div class="footer-wrapper-grid-display"> 
+    <div class="footer-master">
+        <p id="footer-header"><a href="#">The Sunflower Place</a></p>
+        
+        <ul class="social">
+            <li><a href="#"><img src="images/social-logos-300px-01-fb-01.png" alt="Facebook logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-tw-01.png" alt="Twitter logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-in-01.png" alt="Instagram logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-li-01.png" alt="LinkedIn logo social connection" width="27" height="27" /></a></li>
+        </ul>
+        <div class="connect-quick-links">
+        <div id="connect">
+        <h4>Connect</h4>
+        <ul>
+            <li>1234 Rainbow Sun Lane
+                Midlothian, VA 23236</li>
+            <li> 804-272-5195</li>
+            <li><a href="mailto:info@thesunflowerplace.com">info@thesunflowerplace.com</a></li>
+            <li>chat</li>
+        </ul>
+        
+        </div>
+
+        <div class="vl"></div>
+
+        <!-- Quick Links includes checbox method for accordian drop down inline menu -->
+        <div id="quick-links">
+        <input type="checkbox" id="quickexpand" />
+        <label id="quickexpandlabel" for="quickexpand">&gt;</label>
+        <h4 id="quick-links-title">Quick Links</h4>
+        <div id="quick-links-items">
+        <ul>
+            <li><a href="#">Lorem Ipsum Link 01</a></li>
+            <li><a href="#">Lorem Ipsum Link 02</a></li>
+            <li><a href="#">Lorem Ipsum Link 03</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Lorem Ipsum Link 04</a></li>
+            <li><a href="#">Lorem Ipsum Link 05</a></li>
+            <li><a href="#">Lorem Ipsum Link 06</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Lorem Ipsum Link 07</a></li>
+            <li><a href="#">Lorem Ipsum Link 08</a></li>
+            <li><a href="#">Lorem Ipsum Link 09</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+
+        <p id="copyright">&#169; The Sunflower Place. All rights reserved. The Sunflower Place is a registered trademark of The Sunflower Place.</p>
+    </div>
+    </div>
+    </footer>
+</div>
+<script src="scripts/sunflower-javascript-01.js"></script>
+</body>
+</html>

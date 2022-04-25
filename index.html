@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/nam3yzl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>The Sunflower Place Website</title>
+</head>
+<body>
+
+    <div id="master-container">
+   
+     <!-- The header below is composed of the main navigation for mobile and desktop inclusive of The Sunflower Place's home button (orange square with sunflower image), The Sunflower Place's name/text and other menu list items for desktop. -->
+        
+    <header>
+
+     <!-- Nav includes checbox method for hamburger menu display commented out incase needed later. Mobile and Tablet nav works with JavaScript. -->
+
+    <nav>
+        <!-- <input type="checkbox" id="checkbox" />
+        <label for ="checkbox" id="icon"> -->
+            <div id="icon"><img src="images/tsp-icon-home-button-300px-01-01.png" alt="Sunflower Mobile Home" height="50" width="50" /></div>
+        <!-- </label> -->
+            <p><a href="index.html">The Sunflower Place</a></p>
+
+    <!-- Menu list items for mobile (popup menu) and desktop (main horizontal nav.) - the "Home" button shouldn't display on the main horizontal nav. when it's present in destop views of 1230px. and greater; in short, the home button is only for mobile -->
+        <ul class="bs-fix-01">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="visit-our-fields.html">Visit Our Fields</a></li>
+            <li><a href="what-people-are-saying.html">What People Are Saying</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <!-- Main homepage opening photo - Bootstrap Fader -->
+    <!-- <div id="main-photo"> -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/audrius-sutkus-cJ7A2SwC9tU-unsplash-fader-01.jpg" class="d-block w-100" alt="Close up photo of a large sunflower with others in the background on a beautiful sunny day.">
+              </div>
+              <div class="carousel-item">
+                <img src="images/rehan-shaik-Kh5uDUoXXfU-unsplash-1280px.jpg" class="d-block w-100" alt="A lone large sunflower with a sunset red sky in the background.">
+              </div>
+              <div class="carousel-item">
+                <img src="images/john-ramsdin-R_l0p_xIK8w-unsplash-1280px.jpg" class="d-block w-100" alt="A field of sunflowers against a beautiful blue sky.">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            </div> 
+          </div>
+    <!-- </div> -->
+
+    <!-- Section 1 of 3 - Welcome text about The Sunflower Place -->
+    <section id="section-01">
+        <p class="section-title-minor">Welcome to</p>
+        <h1 class="home">The Sunflower Place</h1>
+        
+        <h2>Inspire, Educate and Inform</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+
+        <h2>Value</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+
+        <h2>Quality</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem </p>
+    </section>
+
+    <!-- Section 2 of 3 - Introductory text about the many fields at The Sunflower Place -->
+    <section id="section-02">
+        <p class="section-title-minor">The Many</p>
+        <h1 class="home">Fields of Sunflowers</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.Lorem ipsum dolor sit amet, consectetur </p>
+    </section>
+
+    <!-- Section 3 of 3 - Introductory text about the many different varieties of sunflowers at The Sunflower Place - This section includes a list of sunflowers, which should responsively reflow based on device width. -->
+    <section id="section-03">
+        <p class="section-title-minor">The Many</p>
+        <h1 class="home">Varieties of Sunflowers</h1>
+        <p>Come to the Sunflower Place and examine the many different varieties of sunflower on site or in our store. We carry sunflowers for all occasions from the most popular to the exotic in many different stunning, amazing and attractive colors. Listed here are some of the varieties that we carry.</p>
+
+        <ul id="sunflower-list" class="s-list">
+            <li>American Giant</li>
+            <li>Autumn Beauty</li>
+            <li>Bashful</li>
+            <li>Big Smile</li>
+            <li>Chianti</li>
+            <li>Chocolate Cherry</li>
+            <li>Earthwalker</li>
+            <li>Elf</li>
+            <li>Firecracker</li>
+            <li>Giant Sungold</li>
+            <li>Giganteus</li>
+            <li>Hopi Black Dye</li>
+            <li>Italian White</li>
+            <li>Junior</li>
+            <li>Kong Hybrid</li>
+            <li>Lemon Queen</li>
+            <li>Little Becka</li>
+            <li>Mammoth Russian</li>
+            <li>Moulin Rouge</li>
+            <li>Ms. Mars</li>
+            <li>Pacino</li>
+            <li>Royal Hybrid</li>
+            <li>Schweinitz’s Flower</li>
+            <li>Skyscraper</li>
+            <li>Soraya</li>
+            <li>Strawberry Blond</li>
+            <li>Sundance Kid</li>
+            <li>Sunforest Mix</li>
+            <li>Sunny Smile</li>
+            <li>Super Snack Mix</li>
+            <li>Taiyo Sunflowers</li>
+            <li>Terracotta</li>
+            <li>Titan</li>
+        </ul>
+
+    </section>
+
+    <!-- Footer - This footer contains The Sunflower Place name or logo text, contact info, social links, quick links and copyright info that should reflow responsively based on device width. -->
+    <footer>
+    <div class="footer-wrapper-grid-display"> 
+    <div class="footer-master">
+        <p id="footer-header"><a href="#">The Sunflower Place</a></p>
+        
+        <ul class="social">
+            <li><a href="#"><img src="images/social-logos-300px-01-fb-01.png" alt="Facebook logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-tw-01.png" alt="Twitter logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-in-01.png" alt="Instagram logo social connection" width="27" height="27" /></a></li>
+            <li><a href="#"><img src="images/social-logos-300px-01-li-01.png" alt="LinkedIn logo social connection" width="27" height="27" /></a></li>
+        </ul>
+        <div class="connect-quick-links">
+        <div id="connect">
+        <h4>Connect</h4>
+        <ul class="connect-ul-to-li">
+            <li>1234 Rainbow Sun Lane
+                Midlothian, VA 23236</li>
+            <li> 804-272-5195</li>
+            <li><a href="mailto:info@thesunflowerplace.com">info@thesunflowerplace.com</a></li>
+            <li>chat</li>
+        </ul>
+        
+        </div>
+
+        <div class="vl"></div>
+
+        <!-- Quick Links includes checbox method for accordian drop down inline menu -->
+        <div id="quick-links">
+        <input type="checkbox" id="quickexpand" />
+        <label id="quickexpandlabel" class="qli" for="quickexpand">&gt;</label>
+        <h4 id="quick-links-title" class="qli">Quick Links</h4>
+        <div id="quick-links-items" class="qli">
+        <ul class="qli">
+            <li><a href="#">Lorem Ipsum Link 01</a></li>
+            <li><a href="#">Lorem Ipsum Link 02</a></li>
+            <li><a href="#">Lorem Ipsum Link 03</a></li>
+        </ul>
+        <ul class="qli">
+            <li><a href="#">Lorem Ipsum Link 04</a></li>
+            <li><a href="#">Lorem Ipsum Link 05</a></li>
+            <li><a href="#">Lorem Ipsum Link 06</a></li>
+        </ul>
+        <ul class="qli">
+            <li><a href="#">Lorem Ipsum Link 07</a></li>
+            <li><a href="#">Lorem Ipsum Link 08</a></li>
+            <li><a href="#">Lorem Ipsum Link 09</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+
+        <p id="copyright">&#169; The Sunflower Place. All rights reserved. The Sunflower Place is a registered trademark of The Sunflower Place.</p>
+    </div>
+    </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="scripts/sunflower-javascript-01.js"></script>
+</body>
+</html>
